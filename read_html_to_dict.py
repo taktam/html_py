@@ -2,9 +2,10 @@
 
 
 import pandas
+#import numpy
 
 file_name = "feeders.html"
 #file = open(file_name, 'r')
 
-tables = pandas.read_html(file_name)
-print (tables[0])
+data = pandas.read_html(file_name, parse_dates='Package Name')
+print (len(data[0]))
