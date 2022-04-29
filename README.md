@@ -1,2 +1,2 @@
 # html_py
-Pyhton script for feeders data to csv convert
+Pyhton script to data csv convert
